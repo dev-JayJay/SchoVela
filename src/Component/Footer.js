@@ -1,11 +1,9 @@
 import React from 'react'
-import logo from './logo.jpeg'
 import { FaInstagram } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import { BsWhatsapp } from 'react-icons/bs'
 import { TfiYoutube } from 'react-icons/tfi'
 import { SlSocialFacebook } from 'react-icons/sl'
-import GoogleMap from './GoogleMap'
 import GnadA from './GnadA2.png'
 import map1 from './map1.jpg'
 import map12 from './map12.jpg'
@@ -13,14 +11,10 @@ import map12 from './map12.jpg'
 function Footer() {
   return (
     <div>
-        <footer className='bg-black mt-20'>
+        <footer className='bg-black mt-20 bottom-0 mb-0 w-full'>
             <div className='flex flex-row flex-wrap justify-evenly'>
-                <div className='col-1 relative flex flex-col '>
-                    <img 
-                    src={logo} alt='schovelaLog'
-                    className='w-52 h-52'
-                    /> 
-                <div className='Address text-white absolute lg:top-32 top-32 left-0'>
+                <div className='col-1 flex flex-col '> 
+                <div className='Address text-white mt-10 left-0'>
                 <h1 className='text-2xl text-Ared'>Address</h1>
                 123 Serenity Lane<br/>
                 Tranquliville, Blissfull Country<br/>
@@ -31,7 +25,7 @@ function Footer() {
 
                 <div className='col-2 mt-0'>
                 <nav className='mt-10'>
-                    <h1 className='text-2xl lg:mt-0 mt-20 text-Ared'>Links</h1>
+                    <h1 className='text-2xl text-Ared'>Links</h1>
                 <ul className='flex flex-col'>
                     <li className='text-white mt-2 text-fontSize1'>
                         <a href='/'>
@@ -101,7 +95,7 @@ function Footer() {
                     </nav>
                 </div>
 
-                <div className='col-4'>
+                <div className='col-4 mt-10'>
                     <div className='map$app flex flex-col'>
                         {/* <GoogleMap /> */}
                         <div>
@@ -125,7 +119,7 @@ function Footer() {
             </div>
             <div className='text-center m-2'>
                 <p className='text-white m-2'>Help line Number : <span className='text-Ared'>+234 800 1200 1200</span></p>
-                <p className='font-kenio text-white mt-2 mb-1 flex flex-row text-center justify-center'> All Right Reserver @ <span className='text-Ared'>Team SchoVela</span></p>
+                <p className='font-kenio text-white mt-2 mb-1 flex flex-row text-center justify-center'> All Right Reserver @ <span className='text-Ared'>Team SchoVela 2023</span></p>
             </div>
         </footer>
     </div>

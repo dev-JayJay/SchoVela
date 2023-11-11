@@ -24,7 +24,7 @@ function Header() {
                 <p className='text-Ared'>SchoVela</p>
             </div>
             <nav className=''>
-                <ul className={` ${ clicked ? 'items-center text-center w-full bg-[#212532]' : 'hidden' }
+                <ul className={` ${ clicked ? 'items-center text-center w-full bg-black z-50' : 'hidden' }
                 lg:flex lg:flex-row lg:justify-evenly lg:items-center`}>
                     <li className='text-white lg:mt-5 mr-20 text-fontSize1'>
                         <a href='/'>
