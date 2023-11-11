@@ -14,39 +14,33 @@ function Header() {
 
   return (
     <div>
-        <header className='bg-black h-16 w-full lg:flex lg:flex-row lg:justify-evenly'>
+        <header className='fixed z-50 shadow-md top-0 bg-black h-16 w-full lg:flex lg:flex-row lg:justify-evenly'>
             <div className='flex flex-row items-center text-fontSize1'>
                 <img 
                 src={logo}
                 alt='SchovelaLogo'
                 className='w-width1 h-height1 rounded-3xl'
                 />
-                <p className='text-Ared'>SchoVela</p>
+                <p className='text-Ared font-Agbalumo text-2xl'>SchoVela</p>
             </div>
             <nav className=''>
-                <ul className={` ${ clicked ? 'items-center text-center w-full bg-black z-50' : 'hidden' }
-                lg:flex lg:flex-row lg:justify-evenly lg:items-center`}>
-                    <li className='text-white lg:mt-5 mr-20 text-fontSize1'>
+                <ul className={` ${ clicked ? 'text-right justify-end" mr-0 w-full bg-black' : 'hidden' }
+                lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:z-50`}>
+                    <li className='text-white mt-5 mr-20 text-fontSize1 font-Acme'>
                         <a href='/'>
-                            Home
+                            ABOUT
                         </a>
                     </li>
-                    <li className='text-white mt-5 mr-20 text-fontSize1'>
+                    <li className='text-white mt-5 mr-20 text-fontSize1 font-Acme'>
                         <a href='/'>
-                            About
+                            FEATURES
                         </a>
                     </li>
-                    <li className='text-white mt-5 mr-20 text-fontSize1'>
+                    <li className='text-white mt-5 mr-20 lg:mr-40 text-fontSize1 font-Acme'>
                         <a href='/'>
-                            Features
+                            TEAM
                         </a>
                     </li>
-                    <li className='text-white mt-5 mr-20 lg:mr-40 text-fontSize1'>
-                        <a href='/'>
-                            Team
-                        </a>
-                    </li>
-                    <button className='text-white lg:mt-5 mt-5 mr-20 lg:text-fontSize1'>Download App</button>
                 </ul>
             </nav>
             <button onClick={handleClick} className=' fixed right-5 top-5 block text-white text-4xl lg:hidden'>
