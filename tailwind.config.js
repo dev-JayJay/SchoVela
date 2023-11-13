@@ -7,11 +7,13 @@ module.exports = {
         'width1': '85px',
         'width2': '650px',
         'width3': '400px',
-        'width4':'590px' 
+        'width4':'590px',
+        'width5':'302px'
       },
       height: {
         'height1': '64px',
-        'height2': '400px'
+        'height2': '400px',
+        'height3': '450px',
       },
       fontSize: {
         'fontSize1': '18px',
