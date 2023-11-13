@@ -1,0 +1,23 @@
+{
+    "resources": [
+      {
+        "id": 1,
+        "header": "PDFs",
+        "number":"01",
+        "content": "Explore a rich collection of downloadable PDFs covering a wide range of topics. From in-depth articles to handy reference guides, our PDF resources provide valuable insights and knowledge at your fingertips."
+      },
+      {
+        "id": 2,
+        "header": "Audio Lectures",
+        "number":"02",
+        "content": "Immerse yourself in a world of audio learning with our diverse collection of lectures. Listen and learn on the go, whether you're commuting or taking a leisurely stroll. Our audio lectures offer a convenient way to absorb information and expand your understanding of various subjects."
+      },
+      {
+        "id": 3,
+        "header": "Audiovisual Lectures",
+        "number":"03",
+        "content": "Experience dynamic learning through our audiovisual lectures. Combine the power of visuals with insightful commentary as our expert instructors guide you through complex concepts. Enhance your understanding and retention with engaging content that brings learning to life."
+      }
+    ]
+  }
+  

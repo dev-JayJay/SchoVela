@@ -1,0 +1,29 @@
+{
+    "team": [
+      {
+        "id": 1,
+        "name": "Femi Fatokun",
+        "position": "Team Leader",
+        "description": "As the Team Leader, Femi is a seasoned software engineer with a proven track record of leading successful development teams. His leadership skills, combined with technical expertise, drive the team to deliver high-quality solutions. Femi excels in fostering a collaborative and innovative work environment, ensuring the team's success in tackling challenging projects."
+      },
+      {
+        "id": 2,
+        "name": "Tijani shehu Ahmad",
+        "position": "Graphics Designer",
+        "description": "Creative and detail-oriented graphics designer with a keen eye for aesthetics and visual communication. Proficient in graphic design software and committed to bringing visual concepts to life. Experienced in creating compelling designs for various platforms. And also Winner of the previous UDUS Graphics Competition"
+      },
+      {
+        "id": 3,
+        "name": "Samson Gbemileke Onifade",
+        "position": "Backend Developer",
+        "description": "Highly skilled Backend Developer with a strong foundation in server-side programming and database management. Proficient in designing and implementing scalable and secure backend solutions. Experienced in optimizing system performance and ensuring data integrity."
+      },
+      {
+        "id": 4,
+        "name": "John Jonathan Gaiya",
+        "position": "Frontend Developer",
+        "description": "Talented frontend developer with a strong foundation in web technologies. Experienced in building responsive and user-friendly interfaces. Proficient in HTML, CSS, JavaScript, and modern frontend frameworks like REACT_JS. Enthusiastic about creating engaging and intuitive web experiences."
+      }
+    ]
+  }
+  
