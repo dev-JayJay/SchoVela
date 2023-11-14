@@ -7,6 +7,8 @@ import { SlSocialFacebook } from 'react-icons/sl'
 import GnadA from './GnadA2.png'
 import map1 from './map1.jpg'
 import map12 from './map12.jpg'
+import { FaArrowUpLong } from "react-icons/fa6";
+import { Link } from 'react-scroll'
 
 function Footer() {
   return (
@@ -114,10 +116,19 @@ function Footer() {
                             className='w-40 h-32 ml-1 rounded-2xl'
                             />
                         </div>
+                        <Link
+                        to="BackTop"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        className='absolute right-7 text-center border bg-Ared rounded-full items-center w-16 h-16 mr-10 lg:mt-5'>
+                        <FaArrowUpLong className='text-white mt-5 ml-5 text-2xl'/>
+                        </Link>
                     </div>
                 </div>
             </div>
-            <div className='text-center m-2'>
+            <div className='relative text-center m-2'>
                 <p className='text-white m-2'>Help line Number : <span className='text-Ared'>+234 800 1200 1200</span></p>
                 <p className='font-kenio text-white mt-2 mb-1 flex flex-row text-center justify-center'> All Right Reserver @ <span className='text-Ared'>Team SchoVela 2023</span></p>
             </div>
