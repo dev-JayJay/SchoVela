@@ -6,6 +6,7 @@ import { FaGooglePlay } from 'react-icons/fa'
 // import { PiBrainThin } from 'react-icons/pi'
 import Typewriter from 'typewriter-effect';
 
+
 function Body() {
 
   return (
