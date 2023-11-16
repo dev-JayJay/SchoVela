@@ -6,20 +6,10 @@ function Footer() {
   return (
     <div>
         <footer className='bg-black h-full mt-20 bottom-0 mb-0 w-full'>
-        {/* <div className=' relative bg-Ared rounded-full items-center w-16 h-16 mr-10'>
-        <Link
-        to="BackTop"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        className='absolute bottom-5'>
-        <FaArrowUpLong className='text-white mt-10 ml-5 text-2xl'/>
-        </Link>
-        </div> */}
+
         <div className='relative text-center mt-4'>
-                <p className='text-white mb-0 m-2'>Help line Number : <span className='text-Ared'>+234 904 723 9648</span></p>
-                <p className='font-kenio text-white mt-2 mb-0 flex flex-row text-center justify-center'> All Right Reserver @ <span className='text-Ared'>Team SchoVela 2023</span></p>
+                {/* <p className='text-white pt-7 mb-0 m-2'>Help line Number : <span className='text-Ared'>+234 904 723 9648</span></p> */}
+                <p className='font-kenio text-white mt-7 mb-0 pt-5 pb-7 flex flex-row text-center justify-center'> All Right Reserver @ <span className='text-Ared'>Team SchoVela 2023</span></p>
             </div>
         </footer>
     </div>

@@ -23,7 +23,7 @@ function Feature() {
                                 <div key={index} data-aos={`fade-up`} data-aos-delay={`${index * 100}`} className='w-full ml-1 mr-1 mb-4 lg:w-width3 relative'>
                                     <h3 className='absolute text-8xl right-4 lg:bottom-bottom1 lg:right-8 z-50 opacity-25 text-Ared'>{ items.number }</h3>
                                     <h2 className='text-white text-3xl font-Acme'>{ items.header }</h2>
-                                    <p className='text-white items-start font-Acme font-fontSize2 tracking-wider'>{ items.content }</p>
+                                    <p className='text-white items-start'>{ items.content }</p>
                                 </div>
                             )
                         })

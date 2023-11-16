@@ -21,12 +21,12 @@ function Team() {
                     {
                         TeamData.team.map((items,index) => {
                             return(
-                                <div key={index} data-aos={`zoom-in`} data-aos-delay={`${index * 150}`} className='w-width5 h-height3 mb-4 border rounded-br-3xl rounded-tl-3xl'>
-                                    <h3 className='text-white font-Agbalumo text-2xl mt-2 mb-2'>{ items.name }</h3>
+                                <div key={index} data-aos={`zoom-in`} data-aos-delay={`${index * 150}`} className='w-width5 h-height3 mb-4 text-start rounded-br-3xl rounded-tl-3xl'>
+                                    <h3 className='text-white font-Acme text-center text-2xl mt-2 mb-2'>{ items.name }</h3>
                                     <img src={avater1} alt='avaterlogo' 
                                     className='rounded-full ml-20 w-32'
                                     />
-                                    <p className=' text-Ared font-Agbalumo text-2xl'>{ items.position }</p>
+                                    <p className=' text-Ared text-center font-Acme text-2xl'>{ items.position }</p>
                                     <p className='text-white '>{ items.description }</p>
                                 </div>
                             );
