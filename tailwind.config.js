@@ -13,7 +13,7 @@ module.exports = {
       height: {
         'height1': '64px',
         'height2': '400px',
-        'height3': '450px',
+        'height3': '459px',
       },
       fontSize: {
         'fontSize1': '18px',

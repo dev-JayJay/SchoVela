@@ -25,7 +25,7 @@ function Header() {
                 alt='SchovelaLogo'
                 className='w-width1 h-height1 rounded-3xl'
                 />
-                <p className='text-Ared font-Agbalumo text-2xl'>SchoVela</p>
+                <p className='text-Ared font-Agbalumo text-2xl'>Schovela</p>
             </div>
             <nav className=''>
                 <ul className={` ${ clicked ? 'text-center justify-center mt-0 mr-0 w-full bg-black' : 'hidden' }

@@ -1,10 +1,9 @@
 import React from 'react'
 import logo from './logo.jpeg'
-import { LiaApple } from 'react-icons/lia'
-import { TbFileDownload } from 'react-icons/tb'
-import { FaGooglePlay } from 'react-icons/fa'
+import { FaApple } from "react-icons/fa";
 // import { PiBrainThin } from 'react-icons/pi'
 import Typewriter from 'typewriter-effect';
+import google from './google.png'
 
 
 function Body() {
@@ -39,10 +38,23 @@ function Body() {
                         </span>
                     </p>
                     <div className='flex flex-col text-center items-center mb-3 mt-2 lg:mt-5'>
-                        <h1 className='text-white flex flex-row text-2xl lg:text-3xl items-center mb-2 lg:mb-5 font-Signika'><TbFileDownload /><span>Download on</span></h1>
+                        <h1 className='text-white flex flex-row text-2xl lg:text-3xl items-center mb-2 lg:mb-5 font-Signika'><span>Download Now</span></h1>
                         <div className='flex flex-row flex-wrap'>
-                        <button className='text-white flex flex-row border border-Ared w-40 lg:w-64 h-8 lg:h-14 justify-center rounded-full items-center mr-2 lg:mr-5 text-1xl lg:text-2xl hover:bg-red-600'><span className='mr-2 mb-2'>App Store</span><LiaApple /></button>
-                        <button className='text-white flex flex-row border border-Ared w-40 lg:w-64 h-8 lg:h-14 justify-center rounded-full items-center text-1xl lg:text-2xl hover:bg-red-600'><span className='mr-2 mb-2'>Google Play</span><FaGooglePlay /></button>
+                        <div className='flex flex-row justify-center items-center border border-Ared w-40 lg:w-64 h-8 lg:h-14 rounded-full capitalize mr-2 lg:mr-5 hover:bg-red-600'>
+                        <FaApple className='lg:w-8 lg:h-8 mr-3  lg:mr-2 lg:mt-2 ml-1 text-white lg:mb-2'/>
+                          <div className='relative lg:mt-2'>
+                            <p className='text-white absolute bottom-5 right-1 hidden lg:block'>Download on</p>
+                            <p className='text-white text-1xl lg:text-2xl'>App Store</p>
+                          </div>
+                        </div>
+
+                        <div className='flex flex-row justify-center items-center border border-Ared w-40 lg:w-64 h-8 lg:h-14 rounded-full capitalize hover:bg-red-600'>
+                        <img src={google} alt='googlelogo' className='w-5 h-5 lg:w-8 lg:h-8 mr-2 lg:mt-2' />
+                          <div className='relative lg:mt-2'>
+                            <p className='text-white absolute bottom-5 right-9 hidden lg:block'>get it on</p>
+                            <p className='text-white text-1xl lg:text-2xl'>Google Play</p>
+                          </div>
+                        </div>
                         </div>
                     </div>
                 </div>
