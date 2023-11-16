@@ -14,7 +14,7 @@ function Body() {
             <div className='container mx-auto flex flex-col justify-center items-center w-full h-full lg:flex lg:flex-row lg:justify-center lg:items-center bg-black lg:rounded-br-rounded1 lg:rounded-tl-rounded1 '>
 
             <div className='col-1 mb-0 w-62 m-4 lg:w-width2'>
-                <div className='relative text-start lg:text-center lg:items-center'>
+                <div data-aos="fade-right" className='relative text-start lg:text-center lg:items-center'>
                     <img 
                     src={logo} alt='SclovelaLogo'
                     className='w-16 rounded-full lg:hidden absolute right-7'

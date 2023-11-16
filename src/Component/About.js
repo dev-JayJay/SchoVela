@@ -9,7 +9,7 @@ function About() {
             {/* <p className='text-white text-3xl absolute'><PiBrainThin /></p> */}
 
             <h1 className='text-Ared capitalize text-center font-Acme text-2xl lg:text-3xl mt-8 mb-8'>About Schovela: Nurturing Knowledge, Empowering Education</h1>
-            <div className='flex flex-row flex-wrap justify-center items-center mb-5' >
+            <div data-aos="fade-up-left" className='flex flex-row flex-wrap justify-center items-center mb-5' >
                 <img 
                 src={logoTwo} alt='Schovel.Logo2'
                 className='lg:w-width3 lg:h-height2 w-80 mb-2 rounded-tl-3xl rounded-br-3xl'
@@ -33,7 +33,7 @@ function About() {
 
             {/* <p className='text-white text-3xl absolute'><PiBrainThin /></p> */}
 
-            <div className='flex flex-row flex-wrap justify-center items-center' >
+            <div data-aos="fade-down-right" className='flex flex-row flex-wrap justify-center items-center' >
             <div className='text ml-5 lg:mr-5'>
                 <div className='text-white w-full lg:w-width4 mb-2'>
                     <h2 className='text-Ared text-2xl font-Agbalumo capitalize mb-4'>Explore, Engage, Excel: Academic Triumph Awaits!</h2>

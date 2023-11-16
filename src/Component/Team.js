@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import avater1 from './avater1.png'
 import TeamData from './TeamData.json'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Team() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 500, // Animation duration in milliseconds
+      easing: 'ease-in-out', // Easing function
+    });
+  },[])
+
   return (
     <div name='Team' className='Team'>
               <div className='container mx-auto'>
@@ -11,7 +21,7 @@ function Team() {
                     {
                         TeamData.team.map((items,index) => {
                             return(
-                                <div key={index} className='w-width5 h-height3 mb-4 border rounded-br-3xl rounded-tl-3xl'>
+                                <div key={index} data-aos={`zoom-in`} data-aos-delay={`${index * 150}`} className='w-width5 h-height3 mb-4 border rounded-br-3xl rounded-tl-3xl'>
                                     <h3 className='text-white font-Agbalumo text-2xl mt-2 mb-2'>{ items.name }</h3>
                                     <img src={avater1} alt='avaterlogo' 
                                     className='rounded-full ml-20 w-32'
