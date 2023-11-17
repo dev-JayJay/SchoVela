@@ -9,7 +9,7 @@ function About() {
             {/* <p className='text-white text-3xl absolute'><PiBrainThin /></p> */}
 
             <h1 className='text-Ared capitalize text-center font-Acme text-2xl lg:text-3xl mt-8 mb-8'>About Schovela: Nurturing Knowledge, Empowering Education</h1>
-            <div data-aos="fade-up-left" className='flex flex-row flex-wrap justify-center items-center mb-5' >
+            <div data-aos="flip-right" className='flex flex-row flex-wrap justify-center items-center mb-5' >
                 <img 
                 src={logoTwo} alt='Schovel.Logo2'
                 className='lg:w-width3 lg:h-height2 w-80 mb-2 rounded-tl-3xl rounded-br-3xl'
