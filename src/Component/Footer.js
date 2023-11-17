@@ -9,7 +9,7 @@ function Footer() {
 
         <div className='relative text-center mt-4'>
                 {/* <p className='text-white pt-7 mb-0 m-2'>Help line Number : <span className='text-Ared'>+234 904 723 9648</span></p> */}
-                <p className='font-kenio text-white mt-7 mb-0 pt-5 pb-7 flex flex-row text-center justify-center'> All Right Reserver @ <span className='text-Ared'>Team SchoVela 2023</span></p>
+                <p className='font-kenio text-white mt-7 mb-0 pt-5 pb-7 flex flex-row text-center justify-center'> All Right Reserver @ <span className='text-Ared'>Team Schovela 2023</span></p>
             </div>
         </footer>
     </div>

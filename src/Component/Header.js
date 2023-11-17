@@ -31,7 +31,7 @@ function Header() {
                 <ul className={` ${ clicked ? 'text-end right-0 justify-center mt-0 mr-0 w-full bg-black' : 'hidden' }
                 md:flex md:flex-row md:justify-evenly md:items-center md:z-50
                 lg:flex lg:flex-row lg:justify-evenly lg:items-center lg:z-50`}>
-                    <li className='text-white capitalize mt-0 md:mt-5 md:ml-20 lg:mt-5 mr-20 text-fontSize1 font-Acme cursor-pointer'>
+                    <li className='text-white capitalize mt-0 md:mt-5 md:ml-20 lg:mt-5 lg:mr-20 mr-5 text-fontSize1 font-Acme cursor-pointer'>
                         <Link 
                         to="About"
                         spy={true}
@@ -42,7 +42,7 @@ function Header() {
                             About
                         </Link>
                     </li>
-                    <li className='text-white capitalize mt-5 mr-20 text-fontSize1 font-Acme cursor-pointer'>
+                    <li className='text-white capitalize mt-5 lg:mr-20 mr-5 text-fontSize1 font-Acme cursor-pointer'>
                         <Link
                         to="Feature"
                         spy={true}
@@ -53,7 +53,7 @@ function Header() {
                             Features
                         </Link>
                     </li>
-                    <li className='text-white capitalize mt-5 mr-20 lg:mr-40 text-fontSize1 font-Acme cursor-pointer'>
+                    <li className='text-white capitalize mt-5 mr-5 lg:mr-40 text-fontSize1 font-Acme cursor-pointer'>
                         <Link
                         to="Team"
                         spy={true}
@@ -66,7 +66,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-            <button onClick={handleClick} className=' fixed right-5 top-5 block text-white text-4xl md:hidden lg:hidden'>
+            <button onClick={handleClick} className=' fixed right-5 top-5 block text-white text-3xl md:hidden lg:hidden'>
             {clicked ? <AiOutlineClose /> : <BiMenuAltRight />}
           </button>
         </header>

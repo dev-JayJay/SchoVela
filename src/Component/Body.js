@@ -41,28 +41,10 @@ function Body() {
                     <div className='flex flex-col text-center items-center mb-3 mt-2 lg:mt-5'>
                         <h1 className='text-white flex flex-row text-2xl lg:text-3xl items-center mb-2 lg:mb-5 font-Signika'><span>Download Now</span></h1>
                         <div className='flex flex-row flex-wrap'>
-
-                        {/* <div className='flex flex-row justify-center items-center border border-Ared w-40 lg:w-64 h-8 lg:h-14 rounded-full capitalize mr-2 lg:mr-5 hover:bg-red-600 cursor-pointer'>
-                        <TiVendorAndroid className='lg:w-8 lg:h-8 mr-3  lg:mr-2 lg:mt-2 ml-1 text-white lg:mb-2' />
-                          <div className='relative lg:mt-2'>
-                            <p className='text-white text-center absolute bottom-6 right-4 hidden lg:block'>get it on</p>
-                            <p className='text-white text-1xl lg:text-2xl'>Android</p>
-                          </div>
-                        </div> */}
-
-                        
                         <div className='flex flex-row flex-wrap justify-center lg:justify-between'>
                         <Button Text='Android' icon={<TiVendorAndroid />} subText='Download on'  />
                         <Button Text='App Store' icon={<FaApple />} subText='Coming Soon'  />
                         </div>
-
-                        {/* <div className='flex flex-row justify-center items-center border border-Ared w-40 lg:w-64 h-8 lg:h-14 rounded-full capitalize hover:bg-red-600'>
-                        <FaApple className='lg:w-8 lg:h-8 mr-3  lg:mr-2 lg:mt-2 ml-1 text-white lg:mb-2'/>
-                          <div className='relative lg:mt-2'>
-                            <p className='text-white absolute bottom-6 right-1 hidden lg:block'>Coming Soon</p>
-                            <p className='text-white text-1xl lg:text-2xl'>App Store</p>
-                          </div>
-                        </div> */}
 
                         </div>
                     </div>
