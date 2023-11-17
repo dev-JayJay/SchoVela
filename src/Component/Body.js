@@ -51,7 +51,7 @@ function Body() {
                         </div> */}
 
                         
-                        <div className='flex flex-row justify-between'>
+                        <div className='flex flex-row flex-wrap justify-center lg:justify-between'>
                         <Button Text='Android' icon={<TiVendorAndroid />} subText='Download on'  />
                         <Button Text='App Store' icon={<FaApple />} subText='Coming Soon'  />
                         </div>
