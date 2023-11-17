@@ -33,7 +33,7 @@ function About() {
 
             {/* <p className='text-white text-3xl absolute'><PiBrainThin /></p> */}
 
-            <div data-aos="fade-down-right" className='flex flex-row flex-wrap justify-center items-center' >
+            <div data-aos="flip-left" className='flex flex-row flex-wrap justify-center items-center' >
             <div className='text ml-5 lg:mr-5'>
                 <div className='text-white w-full lg:w-width4 mb-2'>
                     <h2 className='text-Ared text-2xl font-Agbalumo capitalize mb-4'>Explore, Engage, Excel: Academic Triumph Awaits!</h2>
