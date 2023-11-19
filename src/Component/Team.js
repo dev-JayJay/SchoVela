@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import avater1 from './avater1.png'
 import TeamData from './TeamData.json'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -23,7 +22,7 @@ function Team() {
                             return(
                                 <div key={index} data-aos={`zoom-in`} data-aos-delay={`${index * 150}`} className='w-width5 h-height3 mb-4 text-start rounded-br-3xl rounded-tl-3xl'>
                                     <h3 className='text-white font-Acme text-center text-2xl mt-2 mb-2'>{ items.name }</h3>
-                                    <img src={avater1} alt='avaterlogo' 
+                                    <img src={ items.image } alt={items.alt} 
                                     className='rounded-full ml-20 w-32'
                                     />
                                     <p className=' text-Ared text-center font-Acme text-2xl'>{ items.position }</p>

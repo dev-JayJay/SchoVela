@@ -9,6 +9,7 @@ import Button from './Button';
 
 function Body() {
 
+
   return (
     <div name='BackTop'>
         <div className='mt-20 lg:mt-marginTop1'>
@@ -32,8 +33,7 @@ function Body() {
                     />
                     </h1>
                     <p className='text-white lg:text-2xl text-center text-1xl font-Signika capitalize'>
-                        where learning evolves. Download PDF books for seamless access,
-                         listen to audio lectures, and engage with captivating audio-visual content.
+                        Free and seamless access to educational resoures including high quality pdfs, images and videos.
                          <span className='text-Ared lg:text-2xl capitalize text-1xl'>
                          Elevate your educational journey with Schovela - where innovation meets education.
                         </span>
@@ -42,8 +42,8 @@ function Body() {
                         <h1 className='text-white flex flex-row text-2xl lg:text-3xl items-center mb-2 lg:mb-5 font-Signika'><span>Download Now</span></h1>
                         <div className='flex flex-row flex-wrap'>
                         <div className='flex flex-row flex-wrap justify-center lg:justify-between'>
-                        <Button Text='Android' icon={<TiVendorAndroid />} subText='Download on'  />
-                        <Button Text='App Store' icon={<FaApple />} subText='Coming Soon'  />
+                        <Button Text='Android' icon={<TiVendorAndroid />} />
+                        <Button Text='App Store' icon={<FaApple />} />
                         </div>
 
                         </div>

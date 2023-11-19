@@ -31,7 +31,7 @@ module.exports = {
       },
       spacing: {
         'marginTop1': '75px',
-        'bottom1':'120px',
+        'bottom1':'100px',
       },
       borderRadius: {
         'rounded1': '50px',

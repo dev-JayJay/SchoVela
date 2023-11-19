@@ -2,21 +2,21 @@
     "resources": [
       {
         "id": 1,
-        "header": "PDFs",
+        "header": "Controlled Content",
         "number":"01",
-        "content": "Explore a rich collection of downloadable PDFs covering a wide range of topics. From in-depth articles to handy reference guides, our PDF resources provide valuable insights and knowledge at your fingertips."
+        "content": "Users only get to access contents that has beem verified by the admin. Admin checks for abuses in contents before allowing them to go live. In chances of users finding irrelevant or abusive contents on the app is very low."
       },
       {
         "id": 2,
-        "header": "Audio Lectures",
+        "header": "Effective Content Filtering",
         "number":"02",
-        "content": "Immerse yourself in a world of audio learning with our diverse collection of lectures. Listen and learn on the go, whether you're commuting or taking a leisurely stroll. Our audio lectures offer a convenient way to absorb information and expand your understanding of various subjects."
+        "content" : "We provide a very interactive interface for user's to filter contents based on multiple criterias, these criterias helps us to tailor the contents recommended to users to exactly what they intend to see."
       },
       {
         "id": 3,
-        "header": "Audiovisual Lectures",
-        "number":"03",
-        "content": "Experience dynamic learning through our audiovisual lectures. Combine the power of visuals with insightful commentary as our expert instructors guide you through complex concepts. Enhance your understanding and retention with engaging content that brings learning to life."
+        "header": "Up to Date Technologies",
+        "number" : "03",
+        "content" : "We took advantage of cutting edge technologies including, up to date tools, high performance design patterns and so on, to ensure a seamless user experience. As a result of these, we are able to deliver high quality content to users and a pleasurable speed."
       }
     ]
   }
