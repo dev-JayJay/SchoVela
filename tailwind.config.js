@@ -8,12 +8,14 @@ module.exports = {
         'width2': '650px',
         'width3': '400px',
         'width4':'590px',
-        'width5':'302px'
+        'width5':'302px',
+        'width6':'150px',
       },
       height: {
         'height1': '64px',
         'height2': '400px',
         'height3': '459px',
+        'height4':'150px',
       },
       fontSize: {
         'fontSize1': '18px',
@@ -35,6 +37,7 @@ module.exports = {
       },
       borderRadius: {
         'rounded1': '50px',
+        'rounded2':'50%'
       },
       // bg_colors:{
       //   Color1: '#1a1a1a',

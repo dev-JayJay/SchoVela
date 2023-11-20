@@ -7,7 +7,17 @@ function Button({Text, icon, condition}) {
             <p className='lg:text-4xl text-2xl lg:mr-4 mr-2 items-center'>{ icon }</p>
             <div className='flex flex-col items-center justify-center text-center'>
                 {/* <span className='text-center items-center mt-3 justify-center hidden lg:block'>{ subText }</span> */}
-                <p className='lg:text-2xl font-Acme text-1xl'>{ Text }</p>
+                <p className='lg:text-2xl font-Acme text-1xl'>
+                  {
+                    condition ? (
+                      <a  
+                href={process.env.PUBLIC_URL + '/fakeschovela.apk'}
+                download="fakeschovela.apk">{ Text }</a>
+                    ) : (
+                      <span>{Text}</span>
+                    )
+                  }
+                </p>
             </div>
         </div>
 
