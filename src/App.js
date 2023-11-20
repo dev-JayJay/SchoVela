@@ -3,7 +3,7 @@ import Body from './Component/Body';
 import Feature from './Component/Feature';
 import Footer from './Component/Footer';
 import Header from './Component/Header'
-import Overview from './Component/Overview';
+// import Overview from './Component/Overview';
 import Team from './Component/Team';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <About />
       <Feature />
       <Team />
-      <Overview />
+      {/* <Overview /> */}
       <Footer />
     </div>
   );
