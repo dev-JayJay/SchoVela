@@ -42,8 +42,8 @@ function Body() {
                         <h1 className='text-white flex flex-row text-2xl lg:text-3xl items-center mb-2 lg:mb-5 font-Signika'><span>Download Now</span></h1>
                         <div className='flex flex-row flex-wrap'>
                         <div className='flex flex-row flex-wrap justify-center lg:justify-between'>
-                        <Button Text='Android' icon={<TiVendorAndroid />} />
-                        <Button Text='App Store' icon={<FaApple />} />
+                        <Button Text='Android' icon={<TiVendorAndroid />} condition={true} />
+                        <Button Text='App Store' icon={<FaApple />} condition={false} />
                         </div>
 
                         </div>
