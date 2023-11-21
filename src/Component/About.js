@@ -1,6 +1,7 @@
 import React from 'react'
-import logoTwo from './logoTwo.jpeg'
-import schovelaflyer from './schovelaflyer.JPG'
+import ba from './ba.jpg'
+// import banner1 from './banner1.jpg'
+import banner from './banner.jpg'
 
 function About() {
   return (
@@ -11,7 +12,7 @@ function About() {
             <h1 className='text-Ared capitalize text-center font-Acme text-2xl lg:text-3xl mt-8 mb-8'>About Schovela: Nurturing Knowledge, Empowering Education</h1>
             <div data-aos="flip-right" className='flex flex-row flex-wrap justify-center items-center mb-5' >
                 <img 
-                src={logoTwo} alt='Schovel.Logo2'
+                src={banner} alt='Schovel.Logo2'
                 className='lg:w-width3 lg:h-height2 w-80 mb-2 rounded-tl-3xl rounded-br-3xl'
                 />
                 <div className='text ml-5'>
@@ -50,7 +51,7 @@ function About() {
                 </div>
 
                 <img 
-                    src={schovelaflyer} alt='SclovelaLogo'
+                    src={ba} alt='SclovelaLogo'
                     className='lg:w-width3 lg:h-height2 w-80 rounded-tr-3xl rounded-bl-3xl'
                     />
                 
