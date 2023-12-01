@@ -11,8 +11,7 @@ function Button({Text, icon, condition}) {
                   {
                     condition ? (
                       <a  
-                href={"https://play.google.com/store/apps/details?id=com.curious5.schovela"}
-                download="Schovela.apk">{ Text }</a>
+                href={"https://play.google.com/store/apps/details?id=com.curious5.schovela"}>{ Text }</a>
                     ) : (
                       <span>{Text}</span>
                     )
