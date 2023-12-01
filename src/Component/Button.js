@@ -11,7 +11,7 @@ function Button({Text, icon, condition}) {
                   {
                     condition ? (
                       <a  
-                href={process.env.PUBLIC_URL + '/Schovela.apk'}
+                href={"https://play.google.com/store/apps/details?id=com.curious5.schovela"}
                 download="Schovela.apk">{ Text }</a>
                     ) : (
                       <span>{Text}</span>
