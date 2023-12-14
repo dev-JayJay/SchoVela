@@ -47,7 +47,7 @@ const Overview = () => {
         </div>
         </div>
         <div className='flex flex-col text-center justify-center items-center align-middle'>
-        <span className='text-white text-1xl mt-1 mb-1'>Total Downloads Content </span>
+        <span className='text-white text-1xl mt-1 mb-1'>Total Downloads </span>
         <div className='w-28 h-28 border rounded-lg text-center items-center'>
         {/* <p><MdOutlineContentPaste className='mx-auto mt-3 text-center text-white' /></p> */}
          <p className='text-white font-Beginner mt-7 text-4xl'>{ analyticsData.downloads }</p> 
